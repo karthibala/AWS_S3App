@@ -1,5 +1,5 @@
 var s3Uploader = (function () {
-
+alert("s3Uploader");
     var s3URI = encodeURI("https://sedarspine.s3.amazonaws.com/"),
         policyBase64 = "http://goodletschool.com/server/server/signing_server.js",
         signature = "http://goodletschool.com/server/server/signing_util.js",
@@ -7,7 +7,7 @@ var s3Uploader = (function () {
         acl = "public-read";
 
     function upload(imageURI, fileName) {
-
+        alert("imageURI");
         var deferred = $.Deferred(),
             ft = new FileTransfer(),
             options = new FileUploadOptions();

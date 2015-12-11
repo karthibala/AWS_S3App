@@ -1,9 +1,10 @@
 (function () {
-
+alert("App JS");
     var $img = $('img', '.scroller'),
 
         // Take a picture using the camera
         takePicture = function (e) {
+            alert("Img Capture");
             var options = {
                 quality: 45,
                 targetWidth: 1000,
