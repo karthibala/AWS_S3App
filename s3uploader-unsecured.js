@@ -1,9 +1,9 @@
 var s3Uploader = (function () {
 
-    var s3URI = encodeURI("https://YOUR_S3_BUCKET_NAME.s3.amazonaws.com/"),
-        policyBase64 = "YOUR_BASE64_ENCODED_POLICY_FILE",
-        signature = "YOUR_BASE64_ENCODED_SIGNATURE",
-        awsKey = 'YOUR_AWS_USER_KEY',
+    var s3URI = encodeURI("https://sedarspine.s3.amazonaws.com/"),
+        policyBase64 = "http://goodletschool.com/server/server/signing_server.js",
+        signature = "http://goodletschool.com/server/server/signing_util.js",
+        awsKey = 'AKIAJHOJKDRCYT476Q6Q',
         acl = "public-read";
 
     function upload(imageURI, fileName) {
